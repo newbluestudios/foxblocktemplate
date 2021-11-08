@@ -18,14 +18,14 @@ function Home() {
   return (
     <div>
       <Head>
-        <title>next-web3-boilerplate</title>
+        <title>A nextjs web3 template</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header>
         <nav>
           <Link href="/">
-            <a>next-web3-boilerplate</a>
+            <a>Home</a>
           </Link>
 
           <Account triedToEagerConnect={triedToEagerConnect} />
@@ -35,7 +35,7 @@ function Home() {
       <main>
         <h1>
           Welcome to{" "}
-          <a href="https://github.com/mirshko/next-web3-boilerplate">
+          <a href="https://github.com/newbluestudios/foxblocktemplate">
             next-web3-boilerplate
           </a>
         </h1>
